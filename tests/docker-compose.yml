@@ -1,0 +1,10 @@
+version: '3.7'
+
+
+services:
+  fonttool:
+    image: ${IMAGE}
+    volumes:
+      - ./source:/build
+    command:
+      - BebasNeue-Regular.ttf
